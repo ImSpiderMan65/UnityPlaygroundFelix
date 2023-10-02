@@ -1691,6 +1691,23 @@ MonoBehaviour:
   happenOnlyOnce: 1
   filterByTag: 0
   filterTag: Player
+--- !u!114 &548657565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548657550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4330d34abf50140d5bad3d3b0608cca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  target: {fileID: 900147568}
+  speed: 1
+  lookAtTarget: 0
+  useSide: 0
 --- !u!1 &620193684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6912891967857093592, guid: 5ff2892b0b283d646a608b18d61eadb5,
@@ -2424,6 +2441,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 548657558}
+    - targetCorrespondingSourceObject: {fileID: 6796221503345161544, guid: df5c90c2e72358949b82fa25fecd1863,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 548657565}
   m_SourcePrefab: {fileID: 100100000, guid: df5c90c2e72358949b82fa25fecd1863, type: 3}
 --- !u!1001 &1253723717
 PrefabInstance:
@@ -2540,7 +2561,7 @@ MonoBehaviour:
   orientToDirection: 1
   lookAxis: 1
   waypoints:
-  - {x: -66.332924, y: 24.3}
+  - {x: -59.138996, y: 14.947887}
 --- !u!50 &1535095137
 Rigidbody2D:
   serializedVersion: 4
@@ -2581,7 +2602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 548657550}
-  spawnInterval: 1
+  spawnInterval: 3
 --- !u!61 &1535095139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2688,7 +2709,7 @@ Transform:
   m_GameObject: {fileID: 1535095135}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79, y: 24.6, z: 0}
+  m_LocalPosition: {x: 40.1, y: 14.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
